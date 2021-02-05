@@ -12,4 +12,8 @@ export default class Supergalactic {
     this.age = Math.floor(this.age * 1.6280);
     return this.age;
   }
+
+  mars() {
+    return this.age;
+  }
 }
