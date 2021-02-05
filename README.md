@@ -9,7 +9,7 @@
 _The purpose of this website is to demonstrate a thorough understanding of test-driven-development using jest, installation and operation of a webpack, and new features in ECMAScript 6, specifically including template literals and classes._
 
 ## Specs
-See the file under \_\_tests\_\_/supergalactic.jest.js for all function specifications.\
+See the file under \_\_tests\_\_/supergalactic.jest.js for all function specifications.  
 Open it with your code reader of choice, or right-click and open with Notepad for simply viewing the file.
 
 
@@ -22,7 +22,10 @@ _Choose your preferred way to Install:_
 ### Using Git cloning (Most complete option):
 * Open Git or your preferred terminal
 * Navigate to your directory for Git projects (not within an existing project)
-* Type the following: git clone https://github.com/KirbyPaint/EC-W5-independent-project.git
+* Type the following in your terminal exactly as written, and in order: 
+
+> git clone https://github.com/KirbyPaint/EC-W5-independent-project.git  
+> npm install
 
 ### Download the project as a ZIP folder:
 * Navigate to the project's page here: https://github.com/KirbyPaint/EC-W5-independent-project
@@ -32,7 +35,7 @@ _Choose your preferred way to Install:_
 * Double-click the file named "index.html" to view the page
 
 ### View the project in your browser (Most convenient option):
-* Navigate to this link to view in your browser: https://kirbypaint.github.io/
+* Navigate to this link to view in your browser: https://kirbypaint.github.io/EC-W5-independent-project
 
 ## Known Bugs
 
