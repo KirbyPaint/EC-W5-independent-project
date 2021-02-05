@@ -15,4 +15,8 @@ describe('Supergalactic', () => {
   test('should correctly return the Mercurian age as converted from Earthen age', () => {
     expect(supergalactic.mercury()).toEqual(104);
   });
+
+  test('should correctly return the Venusian age as converted from Earthen age', () => {
+    expect(supergalactic.venus()).toEqual(40);
+  });
 });
