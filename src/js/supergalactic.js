@@ -22,4 +22,8 @@ export default class Supergalactic {
     this.age = Math.floor(this.age * 0.0845);
     return this.age;
   }
+
+  lifeExpectancy() {
+    return this.age;
+  }
 }
