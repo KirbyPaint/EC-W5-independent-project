@@ -23,4 +23,8 @@ describe('Supergalactic', () => {
   test('should correctly return the Martian age as converted from Earthen age', () => {
     expect(supergalactic.mars()).toEqual(13);
   });
+
+  test('should correctly return the Jovian age as converted from Earthen age', () => {
+    expect(supergalactic.jupiter()).toEqual(2);
+  });
 });
