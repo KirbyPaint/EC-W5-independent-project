@@ -13,3 +13,19 @@ Honorary mention Pluto (you will always be a planet in my heart, buddy) - 0.0040
 Data collected by entering my age here as the base:
 https://www.exploratorium.edu/ronh/age/
 
+Website listed age as 25.8, I will use just 25 for a cleaner result.
+Always round down for consistency.
+
+Given that my age is 25 and I am rounding down from nearest 4 significant figures I should get the following:
+
+Mercury - 104 (original 104.07)
+Venus - 40 (original 40.7)
+Earth - 25
+Mars - 13 (original 13.275)
+Jupiter - 2 (original 2.1125)
+
+The below will always round to zero but here are the results anyhow
+Saturn - 0 (original 0.8425)
+Uranus - 0 (original 0.2900)
+Neptune - 0 (original 0.1475)
+Pluto - 0 (original 0.1000)

@@ -13,6 +13,6 @@ describe('Supergalactic', () => {
   });
 
   test('should correctly return the Mercurian age as converted from Earthen age', () => {
-    expect(supergalactic.mercury()).toEqual(107);
+    expect(supergalactic.mercury()).toEqual(104);
   });
 });
