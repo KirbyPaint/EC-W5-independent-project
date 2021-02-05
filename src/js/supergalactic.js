@@ -30,6 +30,15 @@ export default class Supergalactic {
       case "Mercury":
         supergalacticAge = new Supergalactic(age).mercury();
         break;
+      case "Venus":
+        supergalacticAge = new Supergalactic(age).venus();
+        break;
+      case "Mars":
+        supergalacticAge = new Supergalactic(age).mars();
+        break;
+      case "Jupiter":
+        supergalacticAge = new Supergalactic(age).jupiter();
+        break;
     }
     supergalacticLifeExpectancy = Math.floor(((expectancy * supergalacticAge) / age));
     let yearsLeft = supergalacticLifeExpectancy - Math.floor(supergalacticAge);
