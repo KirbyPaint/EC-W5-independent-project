@@ -28,28 +28,28 @@ describe('Supergalactic', () => {
     expect(supergalactic.jupiter()).toEqual(2);
   });
 
-  test('should return the estimated years left to live on a planet based on user\'s age (age as integer), given demographic expectancy (expectancy as integer) and chosen planet (planet as string)', () => {
+  test('should return the estimated years left to live on Mercury based on user\'s age (example as 25), given demographic expectancy (example of 80)', () => {
     const age = 25;
     const expectancy = 80;
     const planet = "Mercury"
     expect(supergalactic.lifeExpectancy(age, expectancy, planet)).toEqual(229);
   });
 
-  test('should return the estimated years left to live on a planet based on user\'s age (age as integer), given demographic expectancy (expectancy as integer) and chosen planet (planet as string)', () => {
+  test('should return the estimated years left to live on Venus based on user\'s age (example as 25), given demographic expectancy (example of 80)', () => {
     const age = 25;
     const expectancy = 80;
     const planet = "Venus"
     expect(supergalactic.lifeExpectancy(age, expectancy, planet)).toEqual(90);
   });
 
-  test('should return the estimated years left to live on a planet based on user\'s age (age as integer), given demographic expectancy (expectancy as integer) and chosen planet (planet as string)', () => {
+  test('should return the estimated years left to live on Mars based on user\'s age (example as 25), given demographic expectancy (example of 80)', () => {
     const age = 25;
     const expectancy = 80;
     const planet = "Mars"
     expect(supergalactic.lifeExpectancy(age, expectancy, planet)).toEqual(29);
   });
 
-  test('should return the estimated years left to live on a planet based on user\'s age (age as integer), given demographic expectancy (expectancy as integer) and chosen planet (planet as string)', () => {
+  test('should return the estimated years left to live on Jupiter based on user\'s age (example as 25), given demographic expectancy (example of 80)', () => {
     const age = 25;
     const expectancy = 80;
     const planet = "Jupiter"
