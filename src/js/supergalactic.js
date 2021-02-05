@@ -1,3 +1,3 @@
 export default function Supergalactic(age) {
-  this.age = age +1;
+  this.age = age;
 }
