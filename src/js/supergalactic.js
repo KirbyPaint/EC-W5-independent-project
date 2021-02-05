@@ -17,4 +17,8 @@ export default class Supergalactic {
     this.age = Math.floor(this.age * 0.5310);
     return this.age;
   }
+
+  jupiter() {
+    return this.age;
+  }
 }
