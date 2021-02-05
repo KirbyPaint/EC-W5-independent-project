@@ -1,7 +1,3 @@
 export default function Supergalactic(age) {
-  this.age = age;
+  this.age = age +1;
 }
-
-Supergalactic.prototype.checkType = () => {
-
-};
