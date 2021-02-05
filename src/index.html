@@ -6,60 +6,68 @@
 </head>
 <body>
   <div class="container">
-    <div class="row">
-      <div class="title">
-        <h1>GALACTIC AGE CALCULATOR</h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-3">
-        <div class="planet-alignment">
-          <img src="../assets/images/mercury.png" class="mercury">
-          <p><span class="styling">Mercury</span></p>
+    <form>
+      <div class="row">
+        <div class="title">
+          <h1>GALACTIC AGE CALCULATOR</h1>
         </div>
       </div>
-      <div class="col-3">
-        <div class="planet-alignment">
-          <img src="../assets/images/venus.png" class="venus">
-          <p><span class="styling">Venus</span></p>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="planet-alignment">
-          <img src="../assets/images/mars.png" class="mars">
-          <p><span class="styling">Mars</span></p>
-        </div>
-      </div>
-      <div class="col-3">
-        <div class="planet-alignment">
-          <img src="../assets/images/jupiter.png" class="jupiter">
-          <p><span class="styling">Jupiter</span></p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-6">
-        <div class="data">
-          <div class="title">
-            <h2>DATA</h2>
+      <div class="row">
+        <div class="col-3">
+          <div class="planet-alignment">
+            <button type="submit" class="btn" id="btn-mercury"><img class="mercury" src="../assets/images/mercury.png"></button>
+            <p><span class="styling">Mercury</span></p>
           </div>
-          <div class="info">
-            <p>Enter your current age:</p>
-            <p>Click on one of the above planets to see how many years old you would be if you moved to that planet!</p>
+        </div>
+        <div class="col-3">
+          <div class="planet-alignment">
+            <button type="submit" class="btn" id="btn-venus"><img class="venus" src="../assets/images/venus.png"></button>
+            <p><span class="styling">Venus</span></p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="planet-alignment">
+            <button type="submit" class="btn" id="btn-mars"><img class="mars" src="../assets/images/mars.png"></button>
+            <p><span class="styling">Mars</span></p>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="planet-alignment">
+            <button type="submit" class="btn" id="btn-jupiter"><img class="jupiter" src="../assets/images/jupiter.png"></button>
+            <p><span class="styling">Jupiter</span></p>
           </div>
         </div>
       </div>
-      <div class="col-6">
-        <div id="output">
-          <div class="title">
-            <h2>OUTPUT</h2>
-          </div>
-          <div class="info">
-            <p>On <span class="planet"></span>, you would be <span class="age"></span></p>
-            <p>The life expectancy for <span class="planet"></span> is <span class="life-expectancy"></span></p>
+      <div class="row">
+        <div class="col-6">
+          <div class="data">
+            <div class="title">
+              <h2>DATA</h2>
+            </div>
+            <div class="info">
+              <div class="form-group">
+                <label for="userInputAge"><p>Type or use the arrows to enter your current age:</p></label>
+                <input id="userInputAge" class="form-control" type="number">
+              </div>
+              <p>Then, click on one of the above planets to see how old you would be considered if you moved to that planet!</p>
+            </div>
           </div>
         </div>
-      </div>
+        <div class="col-6">
+          <div id="output">
+            <div class="title">
+              <h2>OUTPUT</h2>
+            </div>
+            <div class="info">
+              <p>On <span class="planet"></span>, you would be <span class="age"></span> years old!</p>
+              <p>The life expectancy for <span class="planet"></span> is <span class="life-expectancy"></span></p>
+              <div class="old">
+                Only show this if the person is older than the life expectancy
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
     </div>
   </div>
 </body>
