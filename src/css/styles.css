@@ -17,6 +17,13 @@ body p {
   color:white;
 }
 
+.title {
+  width: 100%;
+  border: 10px solid white;
+  border-radius: 10px;
+  text-align: center;
+}
+
 .planet-alignment {
   border: 7px solid white;
   text-align: center;
@@ -49,11 +56,6 @@ body p {
 }
 
 .data {
-  border: 10px solid white;
-  border-radius: 10px;
-}
-
-.title {
   border: 10px solid white;
   border-radius: 10px;
 }

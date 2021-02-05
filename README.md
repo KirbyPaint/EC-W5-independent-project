@@ -1,24 +1,17 @@
-# _TEMPLATE_
+# _Galactic Age Calculator_
 
-#### _Website to demonstrate competency in JavaScript constructors and prototypes_
+#### _Website to demonstrate test-driven development, understanding of webpack, and ES6 functionality_
 
 #### By _**Ash Porter (KirbyPaint)**_
-#### Co-Authored-By _**Co-author**_
 
 ## Description
 
-_The purpose of this website is to_
+_The purpose of this website is to demonstrate a thorough understanding of test-driven-development using jest, installation and operation of a webpack, and new features in ECMAScript 6, specifically including template literals and classes._
 
 ## Specs
+See the file under \_\_tests\_\_/supergalactic.jest.js for all function specifications.\
+Open it with your code reader of choice, or right-click and open with Notepad for simply viewing the file.
 
-```js
-"All test inputs are based off of initial Pizza declaration"
-
-Describe:
-Test:
-Expect:
-Status: 
-```
 
 ## Setup/Installation Requirements
 
@@ -29,10 +22,10 @@ _Choose your preferred way to Install:_
 ### Using Git cloning (Most complete option):
 * Open Git or your preferred terminal
 * Navigate to your directory for Git projects (not within an existing project)
-* Type the following: git clone https://github.com/KirbyPaint/.git
+* Type the following: git clone https://github.com/KirbyPaint/EC-W5-independent-project.git
 
 ### Download the project as a ZIP folder:
-* Navigate to the project's page here: https://github.com/KirbyPaint/
+* Navigate to the project's page here: https://github.com/KirbyPaint/EC-W5-independent-project
 * Look for the green  ![code button](assets\images\code.PNG?raw=true "code button")  button
 * Click the button and you will see a drop-down menu. Look for the "Download ZIP" button
 * Save your download locally and extract the files to a directory of your choice
