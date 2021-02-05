@@ -45,6 +45,10 @@ export default class Supergalactic {
         break;
     }
     let yearsLeft = supergalacticLifeExpectancy - supergalacticAge;
-    return Math.floor(yearsLeft);
+    if (yearsLeft < 0) {
+      return `Wow, you made it to ${supergalacticAge}? That's ${(yearsLeft * -1)} years longer than expected for ${planet}!`
+    } else {
+      return Math.floor(yearsLeft);
+    }
   }
 }

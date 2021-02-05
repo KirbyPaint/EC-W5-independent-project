@@ -35,6 +35,27 @@ describe('Supergalactic', () => {
     expect(supergalactic.lifeExpectancy(age, expectancy, planet)).toEqual(229);
   });
 
+  test('should return the estimated years left to live on a planet based on user\'s age (age as integer), given demographic expectancy (expectancy as integer) and chosen planet (planet as string)', () => {
+    const age = 25;
+    const expectancy = 80;
+    const planet = "Venus"
+    expect(supergalactic.lifeExpectancy(age, expectancy, planet)).toEqual(90);
+  });
+
+  test('should return the estimated years left to live on a planet based on user\'s age (age as integer), given demographic expectancy (expectancy as integer) and chosen planet (planet as string)', () => {
+    const age = 25;
+    const expectancy = 80;
+    const planet = "Mars"
+    expect(supergalactic.lifeExpectancy(age, expectancy, planet)).toEqual(29);
+  });
+
+  test('should return the estimated years left to live on a planet based on user\'s age (age as integer), given demographic expectancy (expectancy as integer) and chosen planet (planet as string)', () => {
+    const age = 25;
+    const expectancy = 80;
+    const planet = "Jupiter"
+    expect(supergalactic.lifeExpectancy(age, expectancy, planet)).toEqual(4);
+  });
+
   test('should display a special message if the user has exceeded their life expectancy', () => {
     const age = 90;
     const expectancy = 80;
