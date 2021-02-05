@@ -23,7 +23,16 @@ export default class Supergalactic {
     return this.age;
   }
 
-  lifeExpectancy() {
-    return this.age;
+  lifeExpectancy(age, expectancy, planet) {
+    let supergalacticLifeExpectancy;
+    let supergalacticAge;
+    switch (planet) {
+      case "Mercury":
+        supergalacticAge = new Supergalactic(age).mercury();
+        break;
+    }
+    supergalacticLifeExpectancy = Math.floor(((expectancy * supergalacticAge) / age));
+    let yearsLeft = supergalacticLifeExpectancy - Math.floor(supergalacticAge);
+    return yearsLeft;
   }
 }
