@@ -32,6 +32,13 @@ describe('Supergalactic', () => {
     const age = 25;
     const expectancy = 80;
     const planet = "Mercury"
-    expect(supergalactic.lifeExpectancy(age, expectancy, planet)).toEqual(228);
+    expect(supergalactic.lifeExpectancy(age, expectancy, planet)).toEqual(229);
   });
+
+  // test('should display a special message if the user has exceeded their life expectancy', () => {
+  //   const age = 90;
+  //   const expectancy = 80;
+  //   const planet = "Mercury"
+  //   expect(supergalactic.lifeExpectancy(age, expectancy, planet)).toEqual("Wow, you made it to 374? That's ");
+  // });
 });

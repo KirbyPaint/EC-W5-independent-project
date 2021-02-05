@@ -56,6 +56,10 @@ wham bam, thank you ma'am
 
 Both the supergalacticLifeExpectancy and the years left to live will be rounded DOWN, as all previous numbers have been. So I will live to be 332 years and have 228 years remaining.
 
+UPDATE AT 10:30 AM - The life expectancy can just be calculated by running the LE through the dang planet age calculator!!! So if the Earthen LE is 80, the Mercurian will be... 333. NOT 332.
+
+Meaning my new years left goes to **229**
+
 _______________________________________________________________________________________
 
 Notes for instructors:

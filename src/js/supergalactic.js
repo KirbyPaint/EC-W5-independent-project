@@ -29,19 +29,22 @@ export default class Supergalactic {
     switch (planet) {
       case "Mercury":
         supergalacticAge = new Supergalactic(age).mercury();
+        supergalacticLifeExpectancy = new Supergalactic(expectancy).mercury();
         break;
       case "Venus":
         supergalacticAge = new Supergalactic(age).venus();
+        supergalacticLifeExpectancy = new Supergalactic(expectancy).venus();
         break;
       case "Mars":
         supergalacticAge = new Supergalactic(age).mars();
+        supergalacticLifeExpectancy = new Supergalactic(expectancy).mars();
         break;
       case "Jupiter":
         supergalacticAge = new Supergalactic(age).jupiter();
+        supergalacticLifeExpectancy = new Supergalactic(expectancy).jupiter();
         break;
     }
-    supergalacticLifeExpectancy = Math.floor(((expectancy * supergalacticAge) / age));
-    let yearsLeft = supergalacticLifeExpectancy - Math.floor(supergalacticAge);
-    return yearsLeft;
+    let yearsLeft = supergalacticLifeExpectancy - supergalacticAge;
+    return Math.floor(yearsLeft);
   }
 }
