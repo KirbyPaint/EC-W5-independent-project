@@ -1,0 +1,15 @@
+Calculations for age on other planets, to FOUR significant figures:
+
+Mercury - Age * 4.1628
+Venus - 1.6280
+Mars - 0.5310
+Jupiter - 0.0845
+Saturn - 0.0337
+Uranus - 0.0116
+Neptune - 0.0059
+
+Honorary mention Pluto (you will always be a planet in my heart, buddy) - 0.0040
+
+Data collected by entering my age here as the base:
+https://www.exploratorium.edu/ronh/age/
+
