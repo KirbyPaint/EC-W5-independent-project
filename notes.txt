@@ -29,3 +29,37 @@ Saturn - 0 (original 0.8425)
 Uranus - 0 (original 0.2900)
 Neptune - 0 (original 0.1475)
 Pluto - 0 (original 0.1000)
+
+_______________________________________________________________________________________
+
+Life Expectancy
+Y'all makin me do math I haven't done in forever haha
+
+Given that my age is 25, and let's say I am expected to live to 80, I have lived 31.25% of my life. Wow little bit of a crisis here but ok.
+
+Now, my age on Mercury will be 104, so I've blown right past the Earthen L.E. A Mercurian's comparable life expectancy would be 
+
+25 / 80 = 104 / x
+25x = 80 * 104
+25x = 8320
+x = 332.8
+
+So, on Mercury, I would be expected to live to 332.8, and I should have a WHOPPING 228.8 years left in me. I'm gonna live forever.
+
+So, the function to determine the life expectancy in converted years will be:
+
+(earthAge * supergalacticLifeExpectancy) = (earthLifeExpectancy * supergalacticAge)
+supergalacticLifeExpectancy = (life expectancy * supergalacticAge) / earthenAge
+
+And the years expected to live will be (supergalacticLifeExpectancy - supergalacticAge)
+wham bam, thank you ma'am
+
+Both the supergalacticLifeExpectancy and the years left to live will be rounded DOWN, as all previous numbers have been. So I will live to be 332 years and have 228 years remaining.
+
+_______________________________________________________________________________________
+
+Notes for instructors:
+
+The initial commit accidentally passed the first test. I was just trying to get everything set up and have it ready for testing, but the test just expected the given age, and the constructor as initialized just returned the age, so it passed right off the bat...
+
+As I understood it, you wanted to see the test code be written FIRST. Each test (after the very first one) is written as only a test, with no corresponding function, so it returns a bad fail. Then, I create the function to simply return the entered age, unmodified, so that it got a GOOD fail. Then I coded the function, and it returned a success. I tried to keep that as consistent as possible, but I wasn't 100% sure if I was supposed to even code the bare function or not before committing the test that the not-yet-existing function would actually connect to. I hope that is ok, and if not, at least I've explained where I was coming from on this one.

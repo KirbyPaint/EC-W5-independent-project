@@ -27,4 +27,11 @@ describe('Supergalactic', () => {
   test('should correctly return the Jovian age as converted from Earthen age', () => {
     expect(supergalactic.jupiter()).toEqual(2);
   });
+
+  test('should return the estimated years left to live on a planet based on user\'s age (age as integer), given demographic expectancy (expectancy as integer) and chosen planet (planet as string)', () => {
+    const age = 25;
+    const expectancy = 80;
+    const planet = "Mercury"
+    expect(supergalactic.lifeExpectancy(age, expectancy, planet)).toEqual(228);
+  });
 });
