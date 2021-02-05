@@ -12,3 +12,20 @@ body {
   background-position: center;
   background-size: cover;
 }
+
+body p {
+  color:white;
+}
+
+.planets {
+
+}
+
+.data {
+
+}
+
+.title {
+  border: 10px solid white;
+  border-radius: 10px;
+}
