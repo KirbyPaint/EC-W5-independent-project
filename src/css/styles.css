@@ -17,8 +17,9 @@ body p {
   color:white;
 }
 
-.HELP {
+.planet-alignment {
   border: 7px solid white;
+  text-align: center;
 }
 
 .mercury, .venus, .mars, .jupiter {
@@ -29,16 +30,6 @@ body p {
   margin-top: 10px;
   margin-bottom: 20px;
   border: 5px solid white;
-}
-
-.data {
-  border: 10px solid white;
-  border-radius: 10px;
-}
-
-.title {
-  border: 10px solid white;
-  border-radius: 10px;
 }
 
 .styling {
@@ -56,3 +47,14 @@ body p {
   border: 2px solid white;
   text-align: center;
 }
+
+.data {
+  border: 10px solid white;
+  border-radius: 10px;
+}
+
+.title {
+  border: 10px solid white;
+  border-radius: 10px;
+}
+
