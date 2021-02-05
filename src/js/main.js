@@ -4,7 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/styles.css';
 // import Supergalactic from './supergalactic.js';
 
-$("form").submit(function(event) {
+$(document).on("click", ":submit", function(event){
   event.preventDefault();
-  $("#output").append("BUTTON SUBMIT CONFIRMED");
+
+  const age = $("#userInputAge").val();
+  // const x = new Supergalactic(age);
+  // alert($(this).val());
+  alert(age);
 });
