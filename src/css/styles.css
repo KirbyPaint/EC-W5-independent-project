@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-  background-image: url("../../assets/images/bg_template.png");
+  background-image: url("../../assets/images/bg.png");
   background-position: center;
   background-size: cover;
 }
@@ -17,12 +17,20 @@ body p {
   color:white;
 }
 
-.planets {
+/* .planets {
+} */
 
+.mercury, .venus, .mars, .jupiter {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
 }
 
 .data {
-
+  border: 10px solid white;
+  border-radius: 10px;
 }
 
 .title {
