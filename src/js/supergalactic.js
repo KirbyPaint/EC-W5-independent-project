@@ -1,3 +1,5 @@
-export default function Supergalactic(age) {
-  this.age = age;
+export default class Supergalactic {
+  constructor(age) {
+    this.age = age;
+  }
 }
