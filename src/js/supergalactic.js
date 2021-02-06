@@ -23,7 +23,7 @@ export default class Supergalactic {
     return this.age;
   }
 
-  
+
 
   lifeExpectancy(age, expectancy, planet) {
     let supergalacticLifeExpectancy;
@@ -47,8 +47,9 @@ export default class Supergalactic {
       break;
     }
     let yearsLeft = supergalacticLifeExpectancy - supergalacticAge;
+    console.log(`Years Left variable ${yearsLeft} = Supergalactic Life Expectancy: ${supergalacticLifeExpectancy} - Supergalactic Age: ${supergalacticAge}`);
     if (yearsLeft < 0) {
-      return `Wow, you made it to ${supergalacticAge}? That's ${(yearsLeft * -1)} years longer than expected for ${planet}!`;
+      return Math.floor(yearsLeft * (-1));
     } else {
       return Math.floor(yearsLeft);
     }

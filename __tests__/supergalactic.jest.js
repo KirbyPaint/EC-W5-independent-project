@@ -56,7 +56,7 @@ describe('Supergalactic', () => {
     expect(supergalactic.lifeExpectancy(age, expectancy, planet)).toEqual(4);
   });
 
-  test('should display a special message if the user has exceeded their life expectancy', () => {
+  test('should return the number of years the user has lived past the life expectancy', () => {
     const age = 90;
     const expectancy = 80;
     const planet = "Mercury"
