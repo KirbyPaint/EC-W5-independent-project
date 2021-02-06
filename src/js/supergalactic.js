@@ -23,6 +23,8 @@ export default class Supergalactic {
     return this.age;
   }
 
+  
+
   lifeExpectancy(age, expectancy, planet) {
     let supergalacticLifeExpectancy;
     let supergalacticAge;
