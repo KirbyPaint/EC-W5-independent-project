@@ -30,6 +30,14 @@ Uranus - 0 (original 0.2900)
 Neptune - 0 (original 0.1475)
 Pluto - 0 (original 0.1000)
 
+UPDATE AT 9:15 PM - I'm a dingdong. Divide the age by the given numbers and you get the answers. I can't even believe it took me this long...
+
+Mercury: Age / .24
+Venus: Age / .62
+Mars: Age / 1.88
+Jupiter: Age / 11.86
+
+Round everything to two sig figs because that is what I have received for input
 _______________________________________________________________________________________
 
 Life Expectancy

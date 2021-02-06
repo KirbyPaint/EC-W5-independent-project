@@ -7,25 +7,25 @@ describe('Supergalactic', () => {
   beforeEach(() => {
     supergalactic = new Supergalactic(25);
   });
-
+  // 2 significant digits, round to nearest
   test('should correctly return the supergalactic age as entered', () => {
     expect(supergalactic.age).toEqual(25);
   });
 
   test('should correctly return the Mercurian age as converted from Earthen age', () => {
-    expect(supergalactic.mercury()).toEqual(104);
+    expect(supergalactic.mercury()).toEqual(104.17); // 25 / 0.24
   });
 
   test('should correctly return the Venusian age as converted from Earthen age', () => {
-    expect(supergalactic.venus()).toEqual(40);
+    expect(supergalactic.venus()).toEqual(40.32); // 25 / 0.62
   });
 
   test('should correctly return the Martian age as converted from Earthen age', () => {
-    expect(supergalactic.mars()).toEqual(13);
+    expect(supergalactic.mars()).toEqual(13.30); // 25 / 1.88
   });
 
   test('should correctly return the Jovian age as converted from Earthen age', () => {
-    expect(supergalactic.jupiter()).toEqual(2);
+    expect(supergalactic.jupiter()).toEqual(2.11); // 25 / 11.86
   });
 
   test('should return the estimated years left to live on Mercury based on user\'s age (example as 25), given demographic expectancy (example of 80)', () => {
