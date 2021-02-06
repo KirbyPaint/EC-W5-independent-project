@@ -22,7 +22,8 @@ export default class Supergalactic {
   }
 
   jupiter() {
-    this.age = Math.floor(this.age * 0.0845);
+    const num = (this.age / 11.86);
+    this.age = parseFloat(num.toFixed(2));
     return this.age;
   }
 
