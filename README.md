@@ -10,8 +10,7 @@ _The purpose of this website is to demonstrate a thorough understanding of test-
 
 ## Specs
 See the file under \_\_tests\_\_/supergalactic.jest.js for all function specifications.  
-Open it with your code reader of choice, or right-click and open with Notepad for simply viewing the file.
-
+Open the file with your code reader of choice, or right-click and open with Notepad for simply viewing the file.
 
 ## Setup/Installation Requirements
 
@@ -34,18 +33,21 @@ _Choose your preferred way to Install:_
 * Save your download locally and extract the files to a directory of your choice
 * Double-click the file named "index.html" to view the page
 
-### View the project in your browser (Most convenient option):
-* Navigate to this link to view in your browser: https://kirbypaint.github.io/EC-W5-independent-project
-
 ## Known Bugs
 
 ## Support and contact details
 
 _Discord: @KirbyPaint#0751_
 
-## Technologies Used
+## Technologies and Resources Used
 
-_HTML, CSS (Bootstrap), JavaScript (jQuery)_
+_HTML, CSS (Bootstrap), JavaScript (jQuery)_  
+_Background image taken by me, in-game in "Elite: Dangerous," looking out at the stars from above Oregon, USA_  
+_Mercury image source: https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/AW_Mercury_ladprw.jpg_  
+_Venus image source: https://upload.wikimedia.org/wikipedia/commons/a/a9/PIA23791-Venus-NewlyProcessedView-20200608.jpg_  
+_Mars image source: https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg_  
+_Jupiter image source: https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg_  
+_Planet images cropped by me to create transparent versions when needed_
 
 ### License Information
 

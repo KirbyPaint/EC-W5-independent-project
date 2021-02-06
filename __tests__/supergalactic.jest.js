@@ -7,25 +7,25 @@ describe('Supergalactic', () => {
   beforeEach(() => {
     supergalactic = new Supergalactic(25);
   });
-  // 2 significant digits, round to nearest
+
   test('should correctly return the supergalactic age as entered', () => {
     expect(supergalactic.age).toEqual(25);
   });
 
   test('should correctly return the Mercurian age as converted from Earthen age', () => {
-    expect(supergalactic.mercury()).toEqual(104.17); // 25 / 0.24
+    expect(supergalactic.mercury()).toEqual(104.17);
   });
 
   test('should correctly return the Venusian age as converted from Earthen age', () => {
-    expect(supergalactic.venus()).toEqual(40.32); // 25 / 0.62
+    expect(supergalactic.venus()).toEqual(40.32);
   });
 
   test('should correctly return the Martian age as converted from Earthen age', () => {
-    expect(supergalactic.mars()).toEqual(13.30); // 25 / 1.88
+    expect(supergalactic.mars()).toEqual(13.30);
   });
 
   test('should correctly return the Jovian age as converted from Earthen age', () => {
-    expect(supergalactic.jupiter()).toEqual(2.11); // 25 / 11.86
+    expect(supergalactic.jupiter()).toEqual(2.11);
   });
 
   test('should return the estimated years left to live on Mercury based on user\'s age (example as 25), given demographic expectancy (example of 80)', () => {
@@ -56,7 +56,7 @@ describe('Supergalactic', () => {
     expect(supergalactic.lifeExpectancy(age, expectancy, planet)).toEqual(4.64);
   });
 
-  test('should return the number of years the user has lived past the life expectancy', () => {
+  test('should return the number of years the user has lived past the life expectancy for Mercury', () => {
     const age = 90;
     const expectancy = 80;
     const planet = "Mercury"
