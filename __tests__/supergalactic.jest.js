@@ -60,6 +60,6 @@ describe('Supergalactic', () => {
     const age = 90;
     const expectancy = 80;
     const planet = "Mercury"
-    expect(supergalactic.lifeExpectancy(age, expectancy, planet)).toEqual(41);
+    expect(supergalactic.lifeExpectancy(age, expectancy, planet)).toEqual(41.67);
   });
 });
