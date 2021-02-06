@@ -11,11 +11,9 @@ $(document).on("click", ":submit", function(event){
   const supergalactic = new Supergalactic(age);
   const expectancy = $("#userInputExpectancy").val();
   const planet = $(this).val();
+  const planetExpectancy = supergalactic.lifeExpectancy(age, expectancy, planet);
 
-  $(".age").val(age);
-  $(".planet").val(planet);
-  $(".expectancy").val(expectancy);
-  
-  console.log(supergalactic.age);
-  console.log(supergalactic.lifeExpectancy(age, expectancy, planet));
+  $(".age").text(`${supergalactic.age}`);
+  $(".planet").text(`${planet}`);
+  $(".life-expectancy").text(`${planetExpectancy}`);
 });
