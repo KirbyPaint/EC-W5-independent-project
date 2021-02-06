@@ -16,7 +16,8 @@ export default class Supergalactic {
   }
 
   mars() {
-    this.age = Math.floor(this.age * 0.5310);
+    const num = (this.age / 1.88);
+    this.age = parseFloat(num.toFixed(2));
     return this.age;
   }
 
