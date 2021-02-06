@@ -6,7 +6,9 @@
 
 ## Description
 
-_The purpose of this website is to demonstrate a thorough understanding of test-driven-development using jest, installation and operation of a webpack, and new features in ECMAScript 6, specifically including template literals and classes._
+The purpose of this website is to demonstrate a thorough understanding of test-driven-development using jest, installation and operation of a webpack, and new features in ECMAScript 6, specifically including template literals and classes.  
+The actual operation of this website is to tell the user how old they will be on either Mercury, Venus, Mars, or Jupiter, by asking for their given age and their estimated life expectancy. It will then perform some basic math and output to the user how "old" they would be considered on the expected planet, based on the planet's amount of rotations around the sun.  
+For example, Mercury orbits the Sun completely every 88 Earth days, so someone who has orbited the sun 25 times on Earth, will have orbited the sun about 104 times in that same timeframe, and thus would be considered 104 years old.
 
 ## Specs
 See the file under \_\_tests\_\_/supergalactic.jest.js for all function specifications.  
@@ -16,22 +18,20 @@ Open the file with your code reader of choice, or right-click and open with Note
 
 #### This page has been tested with both the most recent versions of Mozilla Firefox and Google Chrome
 
-_Choose your preferred way to Install:_
-
-### Using Git cloning (Most complete option):
 * Open Git or your preferred terminal
 * Navigate to your directory for Git projects (not within an existing project)
-* Type the following in your terminal exactly as written, and in order: 
+* Paste the following in your terminal _exactly as written,_ and in order: 
 
 > git clone https://github.com/KirbyPaint/EC-W5-independent-project.git  
 > npm install
 
-### Download the project as a ZIP folder:
-* Navigate to the project's page here: https://github.com/KirbyPaint/EC-W5-independent-project
-* Look for the green  ![code button](assets\images\code.PNG?raw=true "code button")  button
-* Click the button and you will see a drop-down menu. Look for the "Download ZIP" button
-* Save your download locally and extract the files to a directory of your choice
-* Double-click the file named "index.html" to view the page
+* Once npm has completed installing, type the following:
+
+> npm run start
+
+* The project will then open in your default web browser
+
+(This project was developed on Windows. These steps may not work on a non-Windows machine.)
 
 ## Known Bugs
 
@@ -41,7 +41,7 @@ _Discord: @KirbyPaint#0751_
 
 ## Technologies and Resources Used
 
-_HTML, CSS (Bootstrap), JavaScript (jQuery)_  
+_HTML, CSS (Bootstrap), JavaScript (jQuery), npm, webpack_  
 _Background image taken by me, in-game in "Elite: Dangerous," looking out at the stars from above Oregon, USA_  
 _Mercury image source: https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/AW_Mercury_ladprw.jpg_  
 _Venus image source: https://upload.wikimedia.org/wikipedia/commons/a/a9/PIA23791-Venus-NewlyProcessedView-20200608.jpg_  
