@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-  background-image: url("../../assets/images/bg.png");
+  background-image: url("../../assets/images/stars.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -19,13 +19,13 @@ body p, h1, h2{
 
 .title {
   width: 100%;
-  border: 10px solid white;
+  border: 2px dotted lightgray;
   border-radius: 10px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .planet-alignment {
-  border: 7px solid white;
   text-align: center;
 }
 
@@ -36,7 +36,6 @@ body p, h1, h2{
   margin-right: auto;
   margin-top: 10px;
   margin-bottom: 20px;
-  border: 5px solid white;
 }
 
 .styling {
@@ -51,23 +50,9 @@ body p, h1, h2{
   -2px 0px 1px black,
   0px -2px 1px black;
   text-decoration: underline;
-  border: 2px solid white;
   text-align: center;
 }
 
-.data {
-  border: 10px solid white;
-  border-radius: 10px;
+.data, #output {
   background-color: black;
-}
-
-#output {
-  border: 10px solid white;
-  border-radius: 10px;
-  background-color: black;
-}
-
-#output {
-  border: 10px solid white;
-  border-radius: 10px;
 }

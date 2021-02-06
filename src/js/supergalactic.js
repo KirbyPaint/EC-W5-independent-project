@@ -27,8 +27,6 @@ export default class Supergalactic {
     return this.age;
   }
 
-
-
   lifeExpectancy(age, expectancy, planet) {
     let supergalacticLifeExpectancy;
     let supergalacticAge;
@@ -52,9 +50,10 @@ export default class Supergalactic {
     }
     let yearsLeft = supergalacticLifeExpectancy - supergalacticAge;
     if (yearsLeft < 0) {
-      return Math.floor(yearsLeft * (-1));
+      let absolute = yearsLeft * (-1);
+      return parseFloat(absolute.toFixed(2));
     } else {
-      return Math.floor(yearsLeft);
+      return parseFloat(yearsLeft.toFixed(2));
     }
   }
 }
