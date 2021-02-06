@@ -4,7 +4,8 @@ export default class Supergalactic {
   }
 
   mercury() {
-    this.age = Math.floor(this.age * 4.1628);
+    const num = (this.age / 0.24);
+    this.age = parseFloat(num.toFixed(2));
     return this.age;
   }
 
